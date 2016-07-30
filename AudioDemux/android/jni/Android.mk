@@ -3,7 +3,7 @@ include $(CLEAR_VARS)
 
 LOCAL_MODULE:= libffmpeg_jni
 LOCAL_SRC_FILES:= $(LOCAL_PATH)/src/ffmpeg_jni.c \
-                   $(LOCAL_PATH)/../../src/demuxing_decoding.c
+                   $(LOCAL_PATH)/../../src/audio_decoding.c
 				   
 LOCAL_C_INCLUDES:= $(LOCAL_PATH)/include \
                    $(LOCAL_PATH)/../../include \

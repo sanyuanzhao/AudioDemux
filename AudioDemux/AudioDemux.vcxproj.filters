@@ -33,12 +33,12 @@
     <ClInclude Include="targetver.h">
       <Filter>Header Files</Filter>
     </ClInclude>
+    <ClInclude Include="include\audio_demux.h">
+      <Filter>Header Files\include</Filter>
+    </ClInclude>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="stdafx.cpp">
-      <Filter>Source Files</Filter>
-    </ClCompile>
-    <ClCompile Include="main.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
     <ClCompile Include="src\demuxing_decoding.c">
@@ -46,6 +46,12 @@
     </ClCompile>
     <ClCompile Include="android\jni\src\ffmpeg_jni.c">
       <Filter>Source Files\jni</Filter>
+    </ClCompile>
+    <ClCompile Include="src\audio_decoding.c">
+      <Filter>Source Files\src</Filter>
+    </ClCompile>
+    <ClCompile Include="main.c">
+      <Filter>Source Files</Filter>
     </ClCompile>
   </ItemGroup>
 </Project>

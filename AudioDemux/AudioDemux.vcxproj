@@ -148,12 +148,14 @@
     <Text Include="ReadMe.txt" />
   </ItemGroup>
   <ItemGroup>
+    <ClInclude Include="include\audio_demux.h" />
     <ClInclude Include="stdafx.h" />
     <ClInclude Include="targetver.h" />
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="android\jni\src\ffmpeg_jni.c" />
-    <ClCompile Include="main.cpp" />
+    <ClCompile Include="main.c" />
+    <ClCompile Include="src\audio_decoding.c" />
     <ClCompile Include="src\demuxing_decoding.c" />
     <ClCompile Include="stdafx.cpp" />
   </ItemGroup>
